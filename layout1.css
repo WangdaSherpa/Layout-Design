@@ -1,0 +1,61 @@
+*{
+    background-color: rgb(14, 59, 46);
+}
+body{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.splitBlock{
+    display: flex;
+}
+.right-col{
+    width: 50%;
+    height: 100vh;
+}
+h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+h2{
+    font-size: 30px;
+    font-weight: 400px;
+    margin-top: -4%;
+}
+#paragraph{
+    font-size: 20px;
+    margin-top: 20%;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 4%;
+}
+.button {
+    margin-top: 20px;
+  }
+  
+  .button a {
+    display: inline-block;
+    padding: 10px 50px;
+    background: orange;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 800;
+    transition: all 0.5s ease;
+  }
+  
+  .button a:hover {
+    background: black;
+    color: orange;
+  }
+.right-col{
+    width: 50%;
+    background-image: url(images/rightbg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
